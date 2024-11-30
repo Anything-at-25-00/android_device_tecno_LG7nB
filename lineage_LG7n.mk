@@ -9,20 +9,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/tecno/LG7n/device.mk)
+$(call inherit-product, device/tecno/LG7nB/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 BOARD_VENDOR := TECNO
-PRODUCT_NAME := lineage_LG7n
-PRODUCT_DEVICE := LG7n
+PRODUCT_NAME := lineage_LG7nB
+PRODUCT_DEVICE := LG7nB
 PRODUCT_MANUFACTURER := TECNO
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO LG7n
+PRODUCT_MODEL := TECNO LG7nB
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=LG7n \
-    BuildFingerprint=TECNO/LG7n-GL/TECNO-LG7n:12/SP1A.210812.016/240530V1260:user/release-keys
+    DeviceName=LG7nB \
+    BuildFingerprint=TECNO/LG7nB-GL/TECNO-LG7nB:12/SP1A.210812.016/240530V1260:user/release-keys
