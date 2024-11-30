@@ -1,4 +1,4 @@
-# lg7n package version: LG7n-H892ABCD-S-GL-240530V1767, unless stated otherwise
+# lg7n package version: LG7nB-H892ABCD-S-GL-240530V1767, unless stated otherwise
 
 # AAL
 vendor/lib/mt6789/libaalservice.so

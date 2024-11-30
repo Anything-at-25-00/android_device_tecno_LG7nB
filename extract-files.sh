@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=LG7n
+export DEVICE=LG7nB
 export DEVICE_COMMON=mt6789-common
 export VENDOR=tecno
 export VENDOR_COMMON=tecno

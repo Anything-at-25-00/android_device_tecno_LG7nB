@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/LG7n
+DEVICE_PATH := device/tecno/LG7nB
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # AAPT
@@ -17,10 +17,10 @@ TARGET_SCREEN_WIDTH := 720
 
 # Overlays
 PRODUCT_PACKAGES += \
-	FrameworksResOverlayLG7n \
+	FrameworksResOverlayLG7nB \
     SettingsResOverlayLG7n \
-    SettingsProviderOverlayLG7n \
-    SystemUIOverlayLG7n
+    SettingsProviderOverlayLG7nB \
+    SystemUIOverlayLG7nB
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
@@ -37,4 +37,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/tecno/mt6789-common/common.mk)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/tecno/LG7n/LG7n-vendor.mk)
+$(call inherit-product, vendor/tecno/LG7nB/LG7nB-vendor.mk)
